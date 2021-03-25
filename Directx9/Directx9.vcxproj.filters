@@ -21,6 +21,12 @@
     <ClCompile Include="d3dUtility.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="triangle.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="cube.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="d3dUtility.h">

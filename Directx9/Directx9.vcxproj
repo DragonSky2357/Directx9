@@ -145,6 +145,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="cube.cpp" />
+    <ClCompile Include="triangle.cpp" />
     <ClCompile Include="d3dUtility.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
