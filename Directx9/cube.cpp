@@ -1,3 +1,4 @@
+/*
 #include "d3dUtility.h"
 
 IDirect3DDevice9* Device = 0;
@@ -228,3 +229,4 @@ int WINAPI WinMain(HINSTANCE hinstance,
 
 	return 0;
 }
+*/

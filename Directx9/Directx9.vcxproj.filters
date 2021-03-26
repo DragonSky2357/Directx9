@@ -27,6 +27,15 @@
     <ClCompile Include="cube.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="teapot.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="d3dxcreate.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="colorTriangle.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="d3dUtility.h">

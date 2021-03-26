@@ -145,7 +145,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="colorTriangle.cpp" />
     <ClCompile Include="cube.cpp" />
+    <ClCompile Include="d3dxcreate.cpp" />
+    <ClCompile Include="teapot.cpp" />
     <ClCompile Include="triangle.cpp" />
     <ClCompile Include="d3dUtility.cpp" />
     <ClCompile Include="main.cpp" />
