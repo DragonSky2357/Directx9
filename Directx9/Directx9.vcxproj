@@ -148,6 +148,10 @@
     <ClCompile Include="colorTriangle.cpp" />
     <ClCompile Include="cube.cpp" />
     <ClCompile Include="d3dxcreate.cpp" />
+    <ClCompile Include="directionalLight.cpp" />
+    <ClCompile Include="litPyramid.cpp" />
+    <ClCompile Include="pointLIght.cpp" />
+    <ClCompile Include="spotLight.cpp" />
     <ClCompile Include="teapot.cpp" />
     <ClCompile Include="triangle.cpp" />
     <ClCompile Include="d3dUtility.cpp" />

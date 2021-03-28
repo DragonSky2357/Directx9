@@ -13,6 +13,15 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\Color">
+      <UniqueIdentifier>{7e03832c-a3ba-4fa3-a7d6-f37b69039d99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Drawing">
+      <UniqueIdentifier>{4d122291-0292-4e89-9772-41a7472fbdc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Lighting">
+      <UniqueIdentifier>{cbd27819-c128-46fb-b53d-3573f8f5bf5e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -21,20 +30,32 @@
     <ClCompile Include="d3dUtility.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="triangle.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="colorTriangle.cpp">
+      <Filter>소스 파일\Color</Filter>
     </ClCompile>
     <ClCompile Include="cube.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="teapot.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Drawing</Filter>
     </ClCompile>
     <ClCompile Include="d3dxcreate.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Drawing</Filter>
     </ClCompile>
-    <ClCompile Include="colorTriangle.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="teapot.cpp">
+      <Filter>소스 파일\Drawing</Filter>
+    </ClCompile>
+    <ClCompile Include="triangle.cpp">
+      <Filter>소스 파일\Drawing</Filter>
+    </ClCompile>
+    <ClCompile Include="litPyramid.cpp">
+      <Filter>소스 파일\Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="directionalLight.cpp">
+      <Filter>소스 파일\Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="pointLIght.cpp">
+      <Filter>소스 파일\Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="spotLight.cpp">
+      <Filter>소스 파일\Lighting</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
