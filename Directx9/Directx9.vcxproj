@@ -145,20 +145,28 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="colorTriangle.cpp" />
-    <ClCompile Include="cube.cpp" />
-    <ClCompile Include="d3dxcreate.cpp" />
-    <ClCompile Include="directionalLight.cpp" />
-    <ClCompile Include="litPyramid.cpp" />
-    <ClCompile Include="pointLIght.cpp" />
-    <ClCompile Include="spotLight.cpp" />
-    <ClCompile Include="teapot.cpp" />
-    <ClCompile Include="triangle.cpp" />
+    <ClCompile Include="Blending\texAlpha\cube.cpp" />
+    <ClCompile Include="Color\colorTriangle.cpp" />
+    <ClCompile Include="Drawing\cube.cpp" />
+    <ClCompile Include="Drawing\d3dxcreate.cpp" />
+    <ClCompile Include="Drawing\teapot.cpp" />
+    <ClCompile Include="Drawing\triangle.cpp" />
+    <ClCompile Include="Lighting\directionalLight.cpp" />
+    <ClCompile Include="Lighting\litPyramid.cpp" />
+    <ClCompile Include="Lighting\pointLIght.cpp" />
+    <ClCompile Include="Lighting\spotLight.cpp" />
     <ClCompile Include="d3dUtility.cpp" />
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="textAlpha.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Blending\texAlpha\cube.h" />
+    <ClInclude Include="Blending\texAlpha\vertex.h" />
     <ClInclude Include="d3dUtility.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Blending\texAlpha\alphachannel.bmp" />
+    <Image Include="Blending\texAlpha\crate.jpg" />
+    <Image Include="Blending\texAlpha\cratewalpha.dds" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
