@@ -28,6 +28,9 @@
     <Filter Include="소스 파일\Blending">
       <UniqueIdentifier>{5f025d54-d467-4a7f-ae9c-0c3797937f2d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Stencil">
+      <UniqueIdentifier>{1157b8eb-e4fc-4b65-adef-66af885fdf1b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="d3dUtility.cpp">
@@ -60,11 +63,8 @@
     <ClCompile Include="Lighting\spotLight.cpp">
       <Filter>소스 파일\Lighting</Filter>
     </ClCompile>
-    <ClCompile Include="Blending\texAlpha\cube.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="textAlpha.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="stencilmirror.cpp">
+      <Filter>소스 파일\Stencil</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -77,16 +77,5 @@
     <ClInclude Include="Blending\texAlpha\vertex.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="Blending\texAlpha\alphachannel.bmp">
-      <Filter>소스 파일</Filter>
-    </Image>
-    <Image Include="Blending\texAlpha\crate.jpg">
-      <Filter>소스 파일</Filter>
-    </Image>
-    <Image Include="Blending\texAlpha\cratewalpha.dds">
-      <Filter>소스 파일</Filter>
-    </Image>
   </ItemGroup>
 </Project>

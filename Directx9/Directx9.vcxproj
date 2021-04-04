@@ -145,7 +145,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Blending\texAlpha\cube.cpp" />
     <ClCompile Include="Color\colorTriangle.cpp" />
     <ClCompile Include="Drawing\cube.cpp" />
     <ClCompile Include="Drawing\d3dxcreate.cpp" />
@@ -156,17 +155,12 @@
     <ClCompile Include="Lighting\pointLIght.cpp" />
     <ClCompile Include="Lighting\spotLight.cpp" />
     <ClCompile Include="d3dUtility.cpp" />
-    <ClCompile Include="textAlpha.cpp" />
+    <ClCompile Include="stencilmirror.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Blending\texAlpha\cube.h" />
     <ClInclude Include="Blending\texAlpha\vertex.h" />
     <ClInclude Include="d3dUtility.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="Blending\texAlpha\alphachannel.bmp" />
-    <Image Include="Blending\texAlpha\crate.jpg" />
-    <Image Include="Blending\texAlpha\cratewalpha.dds" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

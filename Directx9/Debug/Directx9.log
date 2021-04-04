@@ -1,3 +1,2 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1097,5): warning MSB8027: 이름이 cube.cpp인 둘 이상의 파일이 같은 위치에 출력을 생성합니다. 이로 인해 잘못된 빌드 결과가 나타날 수 있습니다.  관련된 파일은 Blending\texAlpha\cube.cpp, Drawing\cube.cpp입니다.
-  textAlpha.cpp
+﻿  stencilmirror.cpp
   Directx9.vcxproj -> C:\Users\qkrdy\source\repos\Directx9\Debug\Directx9.exe
